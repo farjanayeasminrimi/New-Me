@@ -158,3 +158,27 @@ section {
   color: #686363;
 }
 /* New year New plan */
+.timeValue-sec {
+  padding-bottom: 67px;
+}
+.timeValue-area {
+  width: 100%;
+  background-image: linear-gradient(
+      to left,
+      rgb(29 42 113 / 16%),
+      rgb(32 69 195 / 70%)
+    ),
+    url(../Images/timeVAlue.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  padding: 62px 0px;
+}
+.timeValue-content {
+  padding: 0px 60px;
+  width: 400px;
+}
+.time-title {
+  color: aliceblue;
+  margin-bottom: 15px;
+}
