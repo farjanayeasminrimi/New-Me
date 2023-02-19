@@ -182,3 +182,63 @@ section {
   color: aliceblue;
   margin-bottom: 15px;
 }
+/* footer area */
+footer {
+  background-color: black;
+}
+.footer-title {
+  font-size: 25px;
+  color: aliceblue;
+}
+.footer-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.footer-content {
+  width: 40%;
+  text-align: center;
+}
+
+.subscription-area {
+  width: 45%;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 35px;
+}
+
+.footer-content p,
+.footer-content span {
+  color: #dbd2d2;
+  display: block;
+}
+
+.social-site {
+  width: 114px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.social-site img {
+  width: 30px;
+}
+.subscription-area input {
+  outline: none;
+  border: none;
+  padding: 14px 60px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #f3f3f3;
+  margin: 16px 0px;
+}
+
+.subscription-area button {
+  display: block;
+  margin: auto;
+}
+/* footer area */
