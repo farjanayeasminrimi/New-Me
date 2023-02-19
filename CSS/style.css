@@ -37,6 +37,7 @@ section {
   margin-bottom: 15px;
   font-size: 45px;
   color: rgba(255, 255, 255, 0.99);
+  line-height: 60px;
 }
 
 .paragraph {
@@ -44,6 +45,7 @@ section {
   font-size: 14px;
   color: rgba(255, 255, 255, 0.95);
   margin-bottom: 20px;
+  line-height: 25px;
 }
 
 .button {
@@ -114,14 +116,45 @@ section {
   object-fit: cover;
   margin-right: 15px;
 }
-/*                             failure-section                                    */
+/*failure-section*/
 
-/*                             Success-section                                    */
+/*Success-section*/
 
 .success-img-area img {
   width: 500px;
 }
-.success-sec {
-  padding-bottom: 70px;
+/*Success-section*/
+
+/* New year New plan */
+.new-year-title {
+  text-align: center;
 }
-/*                             Success-section                                    */
+.plans-area {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.plan img {
+  width: 65px;
+}
+.plan {
+  width: 240px;
+  text-align: center;
+  border: 1px solid #e9d8d18a;
+  border-radius: 5px;
+  padding: 21px 0;
+}
+
+.plan h5 {
+  font-family: Poppins, sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  color: #1a1952;
+}
+
+.plan span {
+  font-family: Poppins, sans-serif;
+  font-size: 13px;
+  color: #686363;
+}
+/* New year New plan */
